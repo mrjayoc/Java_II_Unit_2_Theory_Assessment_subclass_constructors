@@ -2,9 +2,9 @@ public class Rectangle {
 
     double width, height;
 
-    public Rectangle(double width, double height) {
-        this.width = width;
-        this.height = height;
+    public Rectangle() {
+        this.width = 0;
+        this.height = 0;
     }
 
     public double getArea() {
